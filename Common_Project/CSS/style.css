@@ -1,0 +1,64 @@
+/* body {
+    background-color: green;
+    font-size: 24px 20px;
+    color: white; 
+  } */
+  
+
+/* Apply a green background to the entire page */
+body {
+    background-color: #109b4a; /* A pleasing green color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Choose a font for text */
+  }
+  
+  /* Style the text */
+  h1, h2, h3, p {
+    color: #ffffff; /* White text color for contrast */
+    text-align: center; /* Center-align the text */
+  }
+  
+  h1 {
+    font-size: 36px; /* Adjust the heading font size */
+    margin-top: 20px; /* Add space above the heading */
+  }
+  
+  h2 {
+    font-size: 24px; /* Adjust the subheading font size */
+  }
+  
+  h3 {
+    font-size: 18px; /* Adjust the sub-subheading font size */
+  }
+  
+  p {
+    font-size: 16px; /* Adjust the paragraph font size */
+    line-height: 1.5; /* Increase line spacing for readability */
+    margin: 10px 0; /* Add space around paragraphs */
+  }
+
+  /* Style the image container */
+.image-container {
+    display: flex; /* Use flexbox to arrange images in a row */
+    justify-content: space-between; /* Spread images evenly within the container */
+    align-items: center; /* Center align images vertically */
+  }
+  
+  /* Style individual images (optional) */
+  .image-container img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain the aspect ratio of the images */
+    margin-right: 10px; /* Add spacing between images (adjust as needed) */
+  }  
+  
+  /* Style links */
+  a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add underline on hover for links */
+  }
+  
